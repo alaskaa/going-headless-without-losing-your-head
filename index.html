@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/moon.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown>
+          <textarea data-template>
+          # GOING HEADLESS WITHOUT LOSING YOUR HEAD
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # 👋 
+
+            Hi, I'm Sibylle
+            
+            Junior Frontend Developer at agentur brandung.
+
+            Twitter: [@s_ibylle](https://twitter.com/s_ibylle)
+
+            [LinkedIn](https://www.linkedin.com/in/sibyllekatharinasehl/)
+
+            </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## Structure 📂
+        
+- Short introduction to agency life
+- Moving to a headless CMS structure
+        </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## What is React? ⚛️
+			
+- JavaScript Library for User Interfaces
+		  </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## Why React? ⚛️
+        
+- To effectively manage state changes
+- DIncreased simplicity in data handling
+- Components as templates
+- Well suited for sites with a lot of user activity
+- Progressive Web App Support often out of the box
+        </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## React Building Blocks 🛠
+
+- Reusable Components
+- JSX and JavaScript
+		  </textarea
+          >
+        </section>
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+## What else can React do? ⚛️
+		  </textarea
+            >
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## uni-directional data flow with "props" ⬇️
+
+- props that are being passed from parent to child
+- props are immutable and "read only"
+			  	</textarea
+            >
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## Stateful Components - state ♻️
+
+- components can exhibit 'state' 
+- updates through changes in state
+		      </textarea
+            >
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## Virtual DOM 💻
+	
+- React creates an in-memory data-structure cache & looks at the differences
+	- React rerenders only those components, that have changed
+- more efficient, then reloading the whole DOM each time
+				  </textarea
+            >
+          </section>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## But how do React and TYPO3 work together? 🤝
+  
+- No more handlebar templates or fluid templates
+- Rendering of content based on JSON Endpoints
+- React is using module-JSON und renders the chosen component
+        </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+  ## Solutions 💡
+    
+- Headless TYPO3
+          </textarea>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+# Headless TYPO3
+            </textarea>
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## Definition 📣
+
+- Customer can still freely choose from wide range of modules
+- TYPO3 only acting as data supply for the frontend
+- Frontend Layer is independent of underlying system
+- Frontend calls REST / JSON Endpoints for the data, supplied by the CMS
+              </textarea
+            >
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## Hosting and Deployment ⛴
+
+- Frontend has own server or docroot on multiserver with Node.js installation
+- Frontend and Backend can be deployed independently
+                </textarea
+            >
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## Technical details 💭
+  
+- For good performance and SEO, it could be beneficial to use server side rendering
+- content is visible for the user faster
+- Next.js as an open source framework with React integration
+- Initial Setup Cost for the underlying frontend system, but easily adaptable for future projects
+  
+                  </textarea
+            >
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## Advantages ✅
+
+- Separation of Backend and Frontend (Data & View)
+ - Clear division of responsibility
+- faster workflow for the frontend
+    
+                    </textarea
+            >
+          </section>
+
+          <section data-markdown>
+            <textarea data-template>
+## Disadvantages ❌
+    
+- Customers might not be able to use "considered core features" of their CMS
+  - Preview of content harder to implement
+      
+                      </textarea
+            >
+          </section>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## Decision making 🙋‍♂️
+
+- separation of server structure - is this given?
+- Developers have to meet customers' needs & find right solution
+- Can other projects benefit from such an implementation?
+  - or is it necessary to develop a project-specific solution?
+
+    
+</textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## Learning from mistakes 📖
+            
+- Customer has to know about advantages and disadvantages
+  - Availablitity of features
+  - Explain workflow and speed of working
+- Be brave and try out new ideas to keep being innovative
+</textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## 📚 / 💻 / 📖
+
+- React: https://reactjs.org/docs/getting-started.html
+- Next.js: https://github.com/zeit/next.js/ 
+- Learn React in 2019: https://www.robinwieruch.de/learn-react-js/
+- SSR vs CSR: https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8
+  
+  </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+# Thank you for listening!
+      </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+# Questions ?
+      </textarea
+          >
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>
