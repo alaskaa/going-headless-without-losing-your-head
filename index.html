@@ -31,26 +31,27 @@
       <div class="slides">
         <section data-markdown>
           <textarea data-template>
-          # GOING HEADLESS WITHOUT LOSING YOUR HEAD
-          </textarea>
-        </section>
-        <section data-markdown>
-          <textarea data-template>
-            # 👋 
-
-            Hi, I'm Sibylle
-            
-            Junior Frontend Developer at agentur brandung.
-
-            Twitter: [@s_ibylle](https://twitter.com/s_ibylle)
-
-            [LinkedIn](https://www.linkedin.com/in/sibyllekatharinasehl/)
-
-            </textarea
+                # 👋 
+    
+                Hi, I'm Sibylle
+                
+                Junior Frontend Developer at agentur brandung.
+    
+                Twitter: [@s_ibylle](https://twitter.com/s_ibylle)
+    
+                [LinkedIn](https://www.linkedin.com/in/sibyllekatharinasehl/)
+    
+                </textarea
           >
         </section>
 
         <section data-markdown>
+          <textarea data-template>
+          # GOING HEADLESS WITHOUT LOSING YOUR HEAD
+          </textarea>
+        </section>
+
+        <!-- <section data-markdown>
           <textarea data-template>
 ## Structure 📂
         
@@ -58,15 +59,14 @@
 - Moving to a headless CMS structure
         </textarea
           >
-        </section>
+        </section> -->
 
         <section data-markdown>
           <textarea data-template>
 ## Disclaimer
 			
 - This is not a "pure" JAM Stack talk
-- We're still figuring things out
-- actively evaluating JAM Stack
+- We're still figuring things out and adopting first principles
 		  </textarea
           >
         </section>
@@ -75,8 +75,8 @@
           <textarea data-template>
 ## Agency Life
 			
-- Lots of clients from different backgrounds
-- Multiple projects
+- Lots of clients from different backgrounds (hospitals, football clubs, fitness etc)
+- Multiple projects on the go at the same time
 - Usually working with one or two favoured systems (CMS, E-commerce space)
 		  </textarea
           >
@@ -84,21 +84,21 @@
 
         <section data-markdown>
           <textarea data-template>
-## Favouring one (traditionally Backend) tool
+## Favouring one backend tool
 
 - All system architecture implemented in said system
-- System dictates structure
+- System dictates structure (even for the frontend)
 		  </textarea
           >
         </section>
 
         <section data-markdown>
           <textarea data-template>
-## Why is this problematic? ⚛️
+## Why is this problematic? 
         
 - Frontend doesn't own the markup
-- Division of responsibility not entirely equal
-- Limitations in innovation of trying new tools
+- Separation of concerns not given
+- Limitations in trying new tools
 - Duplication of effort
         </textarea
           >
@@ -108,7 +108,8 @@
           <textarea data-template>
 ## Building bridges 🛠
 
-- Use expertise within but push things further and try new ideas
+- Use expertise in-house but push things further
+- Find solutions that work for everyone
 - Accept that you make mistakes along the way
 		  </textarea
           >
@@ -124,22 +125,13 @@
 
           <section data-markdown>
             <textarea data-template>
-## Trialling new technologies
+## Trialling different technologies
 
 - Evaluate new technologies
-- Next.js, Gatsby, Create-React-App
-- work within the constraints we're given
+- Don't be afraid to think outside-the-box
+- Go for tried and tested solutions
+- Work within the constraints we're given
 			  	</textarea
-            >
-          </section>
-
-          <section data-markdown>
-            <textarea data-template>
-## SEO
-
-- Hot topic with lots of differing views
-- What's important for us?
-		      </textarea
             >
           </section>
 
@@ -148,8 +140,8 @@
 ## What do our customers need? 
 
 - Fully fledged CMS?
-- Way to edit content?
-- Fully and user interaction rich site?
+- A way to edit and update content?
+- Plenty of user interaction?
 				  </textarea
             >
           </section>
@@ -157,11 +149,43 @@
 
         <section data-markdown>
           <textarea data-template>
+## Conceptual phase
+
+- Let customers' needs drive decisions
+- Evaluate constraints
+- Decide on technologies based on fit and expertise
+        </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## What is our in-house expertise? 🤝
+    
+- Frontend has experience in *modern* Javascript and frameworks
+    - Especially React
+- Backend consists of TYPO3 (CMS) and Shopware Developers
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
 ## How could React and TYPO3 work together? 🤝
   
-- No more handlebar templates or fluid templates
 - Rendering of content based on JSON Endpoints
-- React is using module-JSON und renders the chosen component
+- No more handlebar templates and Fluid templates
+<!-- - React is using module-JSON und renders the chosen component -->
+        </textarea
+          >
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+## Leverage the good parts
+  
+- Continue to use the tool that the customers are used to
+- Use frameworks and tools to improve DX and UX
+- Create your own modules that are reusable anywhere 
         </textarea
           >
         </section>
@@ -170,7 +194,7 @@
           <textarea data-template>
   ## Solution 💡
     
-- Headless TYPO3
+- Headless TYPO3 + React
           </textarea>
         </section>
 
@@ -195,36 +219,32 @@
 
           <section data-markdown>
             <textarea data-template>
-## Hosting and Deployment ⛴
+## Hosting and Deployment (in our case) ⛴
 
 - Frontend has own server or docroot on multiserver with Node.js installation
-- Frontend and Backend can be deployed independently
+- Frontend and backend can be deployed independently
                 </textarea
             >
           </section>
 
-          <!-- <section data-markdown>
+          <section data-markdown>
             <textarea data-template>
-## Technical details 💭
-  
-- For good performance and SEO, it could be beneficial to use server side rendering
-- content is visible for the user faster
-- Next.js as an open source framework with React integration
-- Initial Setup Cost for the underlying frontend system, but easily adaptable for future projects
-  
+## Modular and component based frontend 💭
+
+- CMS returns info on the module(s) to be displayed
+- Frontend uses this information to map components to the data
+- Frontend handles context, state and routing
                   </textarea
             >
-          </section> -->
+          </section>
 
           <section data-markdown>
             <textarea data-template>
 ## Advantages ✅
 
-- Separation of Backend and Frontend (Data & View)
+- Separation of backend and frontend (Data & View)
 - Clear division of responsibility
 - Faster workflow for the frontend & room to grow
-- Drive innovation in the company
-    
                     </textarea
             >
           </section>
@@ -234,8 +254,8 @@
 ## Disadvantages ❌
     
 - Customers might not be able to use "considered core features" of their CMS
-  - Preview of content might be harder to implement
-      
+- TYPO3 doesn't implement a REST API out-of-the-box
+- Potentially higher initial setup costs
                       </textarea
             >
           </section>
@@ -243,28 +263,15 @@
 
         <section data-markdown>
           <textarea data-template>
-## Where to go next ❌
+## Where to go next
   
-- Embrace the power of a good API
-- Trust international players to serve your data
-- Can we produce more static content
-- Serverless approaches
+- Try out static site generators
+- Spend time and resources to create great APIs
+- Offer a greater variety of products to customers
+- Trial serverless approaches
   - BaaS
   - FaaS
                     </textarea
-          >
-        </section>
-
-        <section data-markdown>
-          <textarea data-template>
-## Decision making 🙋‍♂️
-
-- Developers have to meet customers' needs & find right solution
-- Can other projects benefit from such an implementation?
-  - or is it necessary to develop a project-specific solution?
-
-    
-</textarea
           >
         </section>
 
@@ -275,7 +282,8 @@
 - Customer has to know about advantages and disadvantages
   - Availablitity of features
   - Explain workflow and speed of working
-- Be brave and try out new ideas to keep being innovative
+  - Communicate benefits
+- Be brave and try out new ideas
 </textarea
           >
         </section>
