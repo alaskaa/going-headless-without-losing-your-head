@@ -1,0 +1,91 @@
+{
+  "metaData": {
+    "title": "Home",
+    "meta:description": "This is a sensation for your senses."
+  },
+  "modules": [
+    {
+      "id": 39,
+      "module": "stage",
+      "headline": "THIS IS A STAGE",
+      "text": "This is a very long stage text that can be filled under the stage headline and display further information",
+      "placeholder": "cloudinaryfolder/stagefolder/image1.png",
+      "video": "cloudinaryfolder/stagefolder/video1.mp4",
+      "mobileVideo": "cloudinaryfolder/stagefolder/video1_mobile.mp4",
+      "cta": null,
+      "ctaLink": null,
+      "ctaArrow": false,
+      "showOverlay": false
+    },
+    {
+      "id": 610,
+      "module": "special",
+      "cta": "Mehr erfahren",
+      "ctaLink": "/about-us",
+      "ctaArrow": false,
+      "headline": "All About Us",
+      "image": "cloudinaryfolder/stagefolder/image1.png",
+      "links": [],
+      "text": "Learn everything about is in this very special way and find yourself immersed in a new world.",
+      "indicatorText": "",
+      "maps": null
+    },
+    {
+      "id": 41,
+      "module": "content-module",
+      "headline": "IMAGINE THE IMPOSSIBLE",
+      "text": "Here is some unbelievably cool text that will blow your mind",
+      "images": [
+        {
+          "src": "cloudinaryfolder/stagefolder/image1.png",
+          "alt": "A cool person talking about cool things on a cool stage"
+        }
+      ],
+      "indicatorText": "Imagine",
+      "alternate": false,
+      "video": null,
+      "cta": "Mehr Erfahren",
+      "ctaLink": "/imagine",
+      "ctaArrow": false,
+      "tracking": "",
+      "maps": null
+    },
+    {
+      "id": 665,
+      "module": "campaign-teaser",
+      "headline": "Get the info",
+      "text": "Do you know your limit? We're not sure you do",
+      "image": "cloudinaryfolder/stagefolder/image1.png",
+      "video": "cloudinaryfolder/stagefolder/video1.mp4"
+    },
+    {
+      "id": 1455,
+      "module": "content-module",
+      "headline": "JAMStack_Berlin 27.05.2019",
+      "text": "This is some information on a very important meeting",
+      "images": [
+        {
+          "src": "cloudinaryfolder/stagefolder/image1.png",
+          "alt": "Demo Person on a demo stage"
+        }
+      ],
+      "indicatorText": "",
+      "alternate": false,
+      "video": null,
+      "cta": "Mehr erfahren",
+      "ctaLink": "https://google.com",
+      "ctaArrow": false,
+      "maps": null
+    },
+    {
+      "id": 43,
+      "module": "membership-teaser",
+      "headline": "BECOME A MEMBER NOW",
+      "text": null,
+      "image": "",
+      "cta": "JOIN US",
+      "link": "/join",
+      "video": null
+    }
+  ]
+}
